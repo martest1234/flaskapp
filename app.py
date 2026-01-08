@@ -9,3 +9,6 @@ def hello_world():
 @app.route("/test")
 def test():
     return "<h1>simple flask test</h1>"
+
+if __name__ == "__main__":
+    app.run()
